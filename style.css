@@ -22,3 +22,26 @@ h1,
 .text-info {
   color: white;
 }
+.location {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+}
+.button-style {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 20%;
+  margin-bottom: 16px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-style:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  cursor: pointer;
+}
